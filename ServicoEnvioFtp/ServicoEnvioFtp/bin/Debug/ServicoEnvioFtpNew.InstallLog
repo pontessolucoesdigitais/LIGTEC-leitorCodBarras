@@ -1,0 +1,74 @@
+﻿Instalando o assembly 'C:\Users\Guilherme\source\repos\ServicoEnvioFtp\ServicoEnvioFtp\bin\Debug\ServicoEnvioFtpNew.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   assemblypath = C:\Users\Guilherme\source\repos\ServicoEnvioFtp\ServicoEnvioFtp\bin\Debug\ServicoEnvioFtpNew.exe
+   logfile = C:\Users\Guilherme\source\repos\ServicoEnvioFtp\ServicoEnvioFtp\bin\Debug\ServicoEnvioFtpNew.InstallLog
+Instalando o serviço EnvioFTP_NEW...
+Criando a origem de EventLog EnvioFTP_NEW no log Application...
+Revertendo o assembly 'C:\Users\Guilherme\source\repos\ServicoEnvioFtp\ServicoEnvioFtp\bin\Debug\ServicoEnvioFtpNew.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   assemblypath = C:\Users\Guilherme\source\repos\ServicoEnvioFtp\ServicoEnvioFtp\bin\Debug\ServicoEnvioFtpNew.exe
+   logfile = C:\Users\Guilherme\source\repos\ServicoEnvioFtp\ServicoEnvioFtp\bin\Debug\ServicoEnvioFtpNew.InstallLog
+Restaurando o log de eventos para o estado anterior da origem EnvioFTP_NEW.
+Instalando o assembly 'C:\Users\Guilherme\source\repos\ServicoEnvioFtp\ServicoEnvioFtp\bin\Debug\ServicoEnvioFtpNew.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   assemblypath = C:\Users\Guilherme\source\repos\ServicoEnvioFtp\ServicoEnvioFtp\bin\Debug\ServicoEnvioFtpNew.exe
+   logfile = C:\Users\Guilherme\source\repos\ServicoEnvioFtp\ServicoEnvioFtp\bin\Debug\ServicoEnvioFtpNew.InstallLog
+Instalando o serviço EnvioFTP_NEW...
+Criando a origem de EventLog EnvioFTP_NEW no log Application...
+Revertendo o assembly 'C:\Users\Guilherme\source\repos\ServicoEnvioFtp\ServicoEnvioFtp\bin\Debug\ServicoEnvioFtpNew.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   assemblypath = C:\Users\Guilherme\source\repos\ServicoEnvioFtp\ServicoEnvioFtp\bin\Debug\ServicoEnvioFtpNew.exe
+   logfile = C:\Users\Guilherme\source\repos\ServicoEnvioFtp\ServicoEnvioFtp\bin\Debug\ServicoEnvioFtpNew.InstallLog
+Restaurando o log de eventos para o estado anterior da origem EnvioFTP_NEW.
+Desinstalando o assembly 'C:\Users\Guilherme\source\repos\ServicoEnvioFtp\ServicoEnvioFtp\bin\Debug\ServicoEnvioFtpNew.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   assemblypath = C:\Users\Guilherme\source\repos\ServicoEnvioFtp\ServicoEnvioFtp\bin\Debug\ServicoEnvioFtpNew.exe
+   logfile = C:\Users\Guilherme\source\repos\ServicoEnvioFtp\ServicoEnvioFtp\bin\Debug\ServicoEnvioFtpNew.InstallLog
+Removendo a origem do EventLog EnvioFTP_NEW.
+Serviço EnvioFTP_NEW está sendo removido do sistema...
+Serviço EnvioFTP_NEW foi removido com êxito do sistema.
+Instalando o assembly 'C:\Users\Guilherme\source\repos\ServicoEnvioFtp\ServicoEnvioFtp\bin\Debug\ServicoEnvioFtpNew.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   assemblypath = C:\Users\Guilherme\source\repos\ServicoEnvioFtp\ServicoEnvioFtp\bin\Debug\ServicoEnvioFtpNew.exe
+   logfile = C:\Users\Guilherme\source\repos\ServicoEnvioFtp\ServicoEnvioFtp\bin\Debug\ServicoEnvioFtpNew.InstallLog
+Instalando o serviço EnvioFTP_NEW...
+Serviço EnvioFTP_NEW foi instalado com êxito.
+Criando a origem de EventLog EnvioFTP_NEW no log Application...
+Confirmando o assembly 'C:\Users\Guilherme\source\repos\ServicoEnvioFtp\ServicoEnvioFtp\bin\Debug\ServicoEnvioFtpNew.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   assemblypath = C:\Users\Guilherme\source\repos\ServicoEnvioFtp\ServicoEnvioFtp\bin\Debug\ServicoEnvioFtpNew.exe
+   logfile = C:\Users\Guilherme\source\repos\ServicoEnvioFtp\ServicoEnvioFtp\bin\Debug\ServicoEnvioFtpNew.InstallLog
+Desinstalando o assembly 'C:\Users\Guilherme\source\repos\ServicoEnvioFtp\ServicoEnvioFtp\bin\Debug\ServicoEnvioFtpNew.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   assemblypath = C:\Users\Guilherme\source\repos\ServicoEnvioFtp\ServicoEnvioFtp\bin\Debug\ServicoEnvioFtpNew.exe
+   logfile = C:\Users\Guilherme\source\repos\ServicoEnvioFtp\ServicoEnvioFtp\bin\Debug\ServicoEnvioFtpNew.InstallLog
+Removendo a origem do EventLog EnvioFTP_NEW.
+Serviço EnvioFTP_NEW está sendo removido do sistema...
+Serviço EnvioFTP_NEW foi removido com êxito do sistema.
+Tentativa de parar o serviço EnvioFTP_NEW.
+Desinstalando o assembly 'C:\Users\Guilherme\source\repos\ServicoEnvioFtp\ServicoEnvioFtp\bin\Debug\ServicoEnvioFtpNew.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   assemblypath = C:\Users\Guilherme\source\repos\ServicoEnvioFtp\ServicoEnvioFtp\bin\Debug\ServicoEnvioFtpNew.exe
+   logfile = C:\Users\Guilherme\source\repos\ServicoEnvioFtp\ServicoEnvioFtp\bin\Debug\ServicoEnvioFtpNew.InstallLog
+Removendo a origem do EventLog EnvioFTP_NEW.
+Ocorreu uma exceção durante a desinstalação do instalador System.Diagnostics.EventLogInstaller.
+System.Security.SecurityException: Fonte não encontrada, mas alguns ou todos os logs de evento não puderam ser pesquisados. Logs inacessíveis: Security, State.
+Ocorreu uma exceção ao desinstalar. Essa exceção será ignorada e a desinstalação continuará. Mas talvez o aplicativo não seja totalmente desinstalado após a conclusão da desinstalação.
+Desinstalando o assembly 'C:\Users\Guilherme\source\repos\ServicoEnvioFtp\ServicoEnvioFtp\bin\Debug\ServicoEnvioFtpNew.exe'.
+Parâmetros afetados são:
+   logtoconsole = 
+   assemblypath = C:\Users\Guilherme\source\repos\ServicoEnvioFtp\ServicoEnvioFtp\bin\Debug\ServicoEnvioFtpNew.exe
+   logfile = C:\Users\Guilherme\source\repos\ServicoEnvioFtp\ServicoEnvioFtp\bin\Debug\ServicoEnvioFtpNew.InstallLog
+Removendo a origem do EventLog EnvioFTP_NEW.
+Ocorreu uma exceção durante a desinstalação do instalador System.Diagnostics.EventLogInstaller.
+System.Security.SecurityException: Fonte não encontrada, mas alguns ou todos os logs de evento não puderam ser pesquisados. Logs inacessíveis: Security, State.
+Ocorreu uma exceção ao desinstalar. Essa exceção será ignorada e a desinstalação continuará. Mas talvez o aplicativo não seja totalmente desinstalado após a conclusão da desinstalação.

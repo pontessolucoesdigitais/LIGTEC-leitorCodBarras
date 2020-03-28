@@ -1,0 +1,16 @@
+C:\Users\Guilherme\source\repos\ServicoEnvioArquivosFtp\ServicoEnvioArquivosFtp\bin\Debug\ServicoEnvioArquivosFtp.exe.config
+C:\Users\Guilherme\source\repos\ServicoEnvioArquivosFtp\ServicoEnvioArquivosFtp\bin\Debug\ServicoEnvioArquivosFtp.exe
+C:\Users\Guilherme\source\repos\ServicoEnvioArquivosFtp\ServicoEnvioArquivosFtp\bin\Debug\ServicoEnvioArquivosFtp.pdb
+C:\Users\Guilherme\source\repos\ServicoEnvioArquivosFtp\ServicoEnvioArquivosFtp\bin\Debug\ServicoEnvioArquivosFtp.xml
+C:\Users\Guilherme\source\repos\ServicoEnvioArquivosFtp\ServicoEnvioArquivosFtp\bin\Debug\UTL.dll
+C:\Users\Guilherme\source\repos\ServicoEnvioArquivosFtp\ServicoEnvioArquivosFtp\bin\Debug\Fleury.Sistemas.TI.dll
+C:\Users\Guilherme\source\repos\ServicoEnvioArquivosFtp\ServicoEnvioArquivosFtp\bin\Debug\UTL.pdb
+C:\Users\Guilherme\source\repos\ServicoEnvioArquivosFtp\ServicoEnvioArquivosFtp\bin\Debug\UTL.xml
+C:\Users\Guilherme\source\repos\ServicoEnvioArquivosFtp\ServicoEnvioArquivosFtp\obj\Debug\ServicoEnvioArquivosFtp.vbprojAssemblyReference.cache
+C:\Users\Guilherme\source\repos\ServicoEnvioArquivosFtp\ServicoEnvioArquivosFtp\obj\Debug\ServicoEnvioArquivosFtp.Resources.resources
+C:\Users\Guilherme\source\repos\ServicoEnvioArquivosFtp\ServicoEnvioArquivosFtp\obj\Debug\ServicoEnvioArquivosFtp.ProjectInstaller.resources
+C:\Users\Guilherme\source\repos\ServicoEnvioArquivosFtp\ServicoEnvioArquivosFtp\obj\Debug\ServicoEnvioArquivosFtp.vbproj.GenerateResource.cache
+C:\Users\Guilherme\source\repos\ServicoEnvioArquivosFtp\ServicoEnvioArquivosFtp\obj\Debug\ServicoEnvioArquivosFtp.vbproj.CopyComplete
+C:\Users\Guilherme\source\repos\ServicoEnvioArquivosFtp\ServicoEnvioArquivosFtp\obj\Debug\ServicoEnvioArquivosFtp.exe
+C:\Users\Guilherme\source\repos\ServicoEnvioArquivosFtp\ServicoEnvioArquivosFtp\obj\Debug\ServicoEnvioArquivosFtp.xml
+C:\Users\Guilherme\source\repos\ServicoEnvioArquivosFtp\ServicoEnvioArquivosFtp\obj\Debug\ServicoEnvioArquivosFtp.pdb

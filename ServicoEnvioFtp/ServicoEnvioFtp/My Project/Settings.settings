@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="ftpServidor" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ftp://167.114.30.84</Value>
+    </Setting>
+    <Setting Name="ftpUsuario" Type="System.String" Scope="User">
+      <Value Profile="(Default)">joao</Value>
+    </Setting>
+    <Setting Name="ftpSenha" Type="System.String" Scope="User">
+      <Value Profile="(Default)">jo0019</Value>
+    </Setting>
+    <Setting Name="ftpDiretorio" Type="System.String" Scope="User">
+      <Value Profile="(Default)">valida</Value>
+    </Setting>
+    <Setting Name="localArmazenamento" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Users\Guilherme\Desktop\tmp</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

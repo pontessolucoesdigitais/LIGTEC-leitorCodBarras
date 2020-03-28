@@ -1,0 +1,281 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+LeitorCodigoBarras
+</name>
+</assembly>
+<members>
+<member name="T:LeitorCodigoBarras.My.Resources.Resources">
+<summary>
+  Uma classe de recurso de tipo de alta segurança, para pesquisar cadeias de caracteres localizadas etc.
+</summary>
+</member>
+<member name="P:LeitorCodigoBarras.My.Resources.Resources.ResourceManager">
+<summary>
+  Retorna a instância de ResourceManager armazenada em cache usada por essa classe.
+</summary>
+</member>
+<member name="P:LeitorCodigoBarras.My.Resources.Resources.Culture">
+<summary>
+  Substitui a propriedade CurrentUICulture do thread atual para todas as
+  pesquisas de recursos que usam essa classe de recurso de tipo de alta segurança.
+</summary>
+</member>
+<member name="P:LeitorCodigoBarras.My.Resources.Resources.Cancelar">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:LeitorCodigoBarras.My.Resources.Resources.Executar_Processar">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:LeitorCodigoBarras.My.Resources.Resources.Ok">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:LeitorCodigoBarras.My.Resources.Resources.settings">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:LeitorCodigoBarras.FTP.host">
+ <summary>
+ The FTP site.
+ </summary>
+</member>
+<member name="P:LeitorCodigoBarras.FTP.user">
+ <summary>
+ The user name.
+ </summary>
+</member>
+<member name="P:LeitorCodigoBarras.FTP.pass">
+ <summary>
+ The user password.
+ </summary>
+</member>
+<member name="M:LeitorCodigoBarras.FTP.#ctor(System.String,System.String,System.String)">
+ <summary>
+ .
+ </summary>
+ <param name="host">Indicates the ftp site.</param>
+ <param name="user">Indicates the username.</param>
+ <param name="pass">Indicates the password.</param>
+</member>
+<member name="M:LeitorCodigoBarras.FTP.Connect">
+ <summary>
+ Connects to server.
+ </summary>
+</member>
+<member name="M:LeitorCodigoBarras.FTP.Disconnect">
+ <summary>
+ Disconnects from server.
+ </summary>
+</member>
+<member name="M:LeitorCodigoBarras.FTP.CreateDirectory(System.String,System.Boolean)">
+ <summary>
+ Creates a directory on server.
+ </summary>
+ <param name="directorypath">Indicates the ftp directory path.</param>
+ <param name="force">Try to force all non-existant pieces of the path to be created.</param>
+</member>
+<member name="M:LeitorCodigoBarras.FTP.DeleteDirectory(System.String,System.Boolean,System.Net.FtpClient.FtpListOption)">
+ <summary>
+ Creates a directory on server.
+ </summary>
+ <param name="directorypath">Indicates the ftp directory path.</param>
+ <param name="force">Try to force all non-existant pieces of the path to be created.</param>
+ <param name="FtpListOption">Options that dictate how a list is performed ans what information is gathered.</param>
+</member>
+<member name="M:LeitorCodigoBarras.FTP.DeleteFile(System.String)">
+ <summary>
+ Deletes a file on server.
+ </summary>
+ <param name="filepath">Indicates the ftp file path.</param>
+</member>
+<member name="M:LeitorCodigoBarras.FTP.DirectoryExists(System.String)">
+ <summary>
+ Checks if a directory exist on server.
+ </summary>
+ <param name="directorypath">Indicates the ftp directory path.</param>
+</member>
+<member name="M:LeitorCodigoBarras.FTP.Execute(System.String)">
+ <summary>
+ Executes a command on server.
+ </summary>
+ <param name="command">Indicates the command to execute on the server.</param>
+ <returns>Returns an object containing the server reply information.</returns>
+</member>
+<member name="M:LeitorCodigoBarras.FTP.TryExecute(System.String)">
+ <summary>
+ Tries to execute a command on server.
+ </summary>
+ <param name="command">Indicates the command to execute on the server.</param>
+ <returns>Returns TRUE if command execution successfull, otherwise returns False.</returns>
+</member>
+<member name="M:LeitorCodigoBarras.FTP.FileExists(System.String,System.Net.FtpClient.FtpListOption)">
+ <summary>
+ Checks if a file exist on server.
+ </summary>
+ <param name="filepath">Indicates the ftp file path.</param>
+ <param name="FtpListOption">Options that dictate how a list is performed ans what information is gathered.</param>
+</member>
+<member name="M:LeitorCodigoBarras.FTP.GetChecksum(System.String)">
+ <summary>
+ Retrieves a checksum of the given file
+ using a checksumming method that the server supports, if any.
+ The algorithm used goes in this order: 
+ 1. HASH command (server preferred algorithm).
+ 2. MD5 / XMD5 commands 
+ 3. XSHA1 command 
+ 4. XSHA256 command 
+ 5. XSHA512 command
+ 6. XCRC command
+ </summary>
+ <param name="filepath">Indicates the ftp file path.</param>
+</member>
+<member name="M:LeitorCodigoBarras.FTP.VerifyChecksum(System.String,System.String,System.Net.FtpClient.FtpHashAlgorithm)">
+ <summary>
+ Gets the checksum of file on server and compare it with the checksum of local file.
+ </summary>
+ <param name="filepath">Indicates the ftp file path.</param>
+ <param name="localfilepath">Indicates the local disk file path.</param>
+ <param name="algorithm">Indicates the algorithm that should be used to verify checksums.</param>
+ <returns>Returns TRUE if both checksums are equal, otherwise returns False.</returns>
+</member>
+<member name="M:LeitorCodigoBarras.FTP.GetFileSize(System.String)">
+ <summary>
+ Gets the size of file.
+ </summary>
+ <param name="filepath">Indicates the ftp file path.</param>
+</member>
+<member name="M:LeitorCodigoBarras.FTP.GetHashAlgorithm">
+ <summary>
+ Gets the currently HASH algorithm used for the HASH command on server.
+ </summary>
+</member>
+<member name="M:LeitorCodigoBarras.FTP.GetModifiedTime(System.String)">
+ <summary>
+ Gets the modified time of file.
+ </summary>
+ <param name="filepath">Indicates the ftp file path.</param>
+</member>
+<member name="M:LeitorCodigoBarras.FTP.GetNameListing(System.String)">
+ <summary>
+ Returns a file/directory listing using the NLST command.
+ </summary>
+ <param name="directorypath">Indicates the ftp file path.</param>
+</member>
+<member name="M:LeitorCodigoBarras.FTP.GetWorkingDirectory">
+ <summary>
+ Gets the current working directory on server.
+ </summary>
+</member>
+<member name="M:LeitorCodigoBarras.FTP.OpenAppend(System.String)">
+ <summary>
+ Opens the specified file to be appended to...
+ </summary>
+ <param name="filepath">Indicates the ftp file path.</param>
+</member>
+<member name="M:LeitorCodigoBarras.FTP.OpenRead(System.String)">
+ <summary>
+ Opens the specified file for reading.
+ </summary>
+ <param name="filepath">Indicates the ftp file path.</param>
+</member>
+<member name="M:LeitorCodigoBarras.FTP.OpenWrite(System.String)">
+ <summary>
+ Opens the specified file for writing.
+ </summary>
+ <param name="filepath">Indicates the ftp file path.</param>
+</member>
+<member name="M:LeitorCodigoBarras.FTP.RenameFile(System.String,System.String)">
+ <summary>
+ Rename a file on the server.
+ </summary>
+ <param name="filepath">Indicates the ftp file path.</param>
+ <param name="newfilepath">Indicates the new ftp file path.</param>
+</member>
+<member name="M:LeitorCodigoBarras.FTP.RenameDirectory(System.String,System.String)">
+ <summary>
+ Rename a directory on the server.
+ </summary>
+ <param name="directorypath">Indicates the ftp file path.</param>
+ <param name="newdirectorypath">Indicates the new ftp file path.</param>
+</member>
+<member name="M:LeitorCodigoBarras.FTP.SetHashAlgorithm(System.Net.FtpClient.FtpHashAlgorithm)">
+ <summary>
+ Tells the server wich hash algorithm to use for the HASH command.
+ </summary>
+ <param name="algorithm">Indicates the HASH algorithm.</param>
+</member>
+<member name="M:LeitorCodigoBarras.FTP.SetWorkingDirectory(System.String)">
+ <summary>
+ Sets the working directory on the server.
+ </summary>
+ <param name="directorypath">Indicates the ftp directory path.</param>
+</member>
+<member name="M:LeitorCodigoBarras.FTP.GetDirectories(System.String,System.Net.FtpClient.FtpListOption)">
+ <summary>
+ Gets a directory list on the specified path.
+ </summary>
+ <param name="directorypath">Indicates the ftp directory path.</param>
+ <param name="FtpListOption">Options that dictate how a list is performed ans what information is gathered.</param>
+</member>
+<member name="M:LeitorCodigoBarras.FTP.GetFiles(System.String,System.Net.FtpClient.FtpListOption)">
+ <summary>
+ Gets a file list on the specified path.
+ </summary>
+ <param name="directorypath">Indicates the ftp directory path.</param>
+ <param name="FtpListOption">Options that dictate how a list is performed ans what information is gathered.</param>
+</member>
+<member name="M:LeitorCodigoBarras.FTP.GetLinks(System.String,System.Net.FtpClient.FtpListOption)">
+ <summary>
+ Gets a link list on the specified path.
+ </summary>
+ <param name="directorypath">Indicates the ftp directory path.</param>
+ <param name="FtpListOption">Options that dictate how a list is performed ans what information is gathered.</param>
+</member>
+<member name="M:LeitorCodigoBarras.FTP.GetListing(System.String,System.Net.FtpClient.FtpListOption)">
+ <summary>
+ Gets a file/folder list on the specified path.
+ </summary>
+ <param name="directorypath">Indicates the ftp directory path.</param>
+ <param name="FtpListOption">Options that dictate how a list is performed ans what information is gathered.</param>
+</member>
+<member name="M:LeitorCodigoBarras.FTP.LogToConsole">
+ <summary>
+ Log to a console window
+ </summary>
+</member>
+<member name="M:LeitorCodigoBarras.FTP.LogToFile(System.String)">
+ <summary>
+ Log to a text file
+ </summary>
+ <param name="filepath">Indicates the file where to save the log.</param>
+</member>
+<member name="M:LeitorCodigoBarras.FTP.UploadFile(System.Net.WebClient@,System.String,System.String,System.Boolean)">
+ <summary>
+ Uploads a file to FTP.
+ </summary>
+ <param name="UploadClient">Indicates the WebClient object to upload the file.</param>
+ <param name="filepath">Indicates the ftp fle path.</param>
+ <param name="localfilepath">Specifies the local path where to save the downloaded file.</param>
+ <param name="Asynchronous">Indicates whether the download should be an Asynchronous operation, 
+ to raise WebClient events.</param>
+</member>
+<member name="M:LeitorCodigoBarras.FTP.DownloadFile(System.Net.WebClient@,System.String,System.String,System.Boolean)">
+ <summary>
+ Downloads a file from FTP.
+ </summary>
+ <param name="DownloadClient">Indicates the WebClient object to download the file.</param>
+ <param name="filepath">Indicates the ftp fle path.</param>
+ <param name="localfilepath">Specifies the local path where to save the downloaded file.</param>
+ <param name="Asynchronous">Indicates whether the download should be an Asynchronous operation, 
+ to raise WebClient events.</param>
+</member>
+</members>
+</doc>
