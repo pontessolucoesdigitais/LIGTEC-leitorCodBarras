@@ -1,0 +1,199 @@
+object DM: TDM
+  OldCreateOrder = False
+  Height = 474
+  Width = 884
+  object FDQMenu: TFDQuery
+    Connection = ConexaoBD
+    SQL.Strings = (
+      'Select * from Menu'
+      'Order by Item')
+    Left = 48
+    Top = 56
+    object FDQMenuIDMODULO: TIntegerField
+      FieldName = 'IDMODULO'
+      Origin = 'IDMODULO'
+      ProviderFlags = [pfInUpdate, pfInWhere, pfInKey]
+      Required = True
+    end
+    object FDQMenuITEM: TWideStringField
+      FieldName = 'ITEM'
+      Origin = 'ITEM'
+      ProviderFlags = [pfInUpdate, pfInWhere, pfInKey]
+      Required = True
+      Size = 10
+    end
+    object FDQMenuDESCRICAO: TWideStringField
+      FieldName = 'DESCRICAO'
+      Origin = 'DESCRICAO'
+      Size = 50
+    end
+    object FDQMenuNIVELMENU: TWideStringField
+      FieldName = 'NIVELMENU'
+      Origin = 'NIVELMENU'
+      Size = 15
+    end
+    object FDQMenuICONE: TWideStringField
+      FieldName = 'ICONE'
+      Origin = 'ICONE'
+      Size = 50
+    end
+    object FDQMenuNOMEFORM: TWideStringField
+      FieldName = 'NOMEFORM'
+      Origin = 'NOMEFORM'
+      Size = 50
+    end
+  end
+  object ConexaoBD: TFDConnection
+    Params.Strings = (
+      
+        'Database=C:\Marcelo Giratto - Cursos Online\SisHelpDesk\Win32\De' +
+        'bug\BancoDados\HelpDesk.fdb'
+      'User_Name=SYSDBA'
+      'Password=masterkey'
+      'Server=localhost'
+      'CharacterSet=UTF8'
+      'DriverID=FB')
+    Connected = True
+    LoginPrompt = False
+    Left = 48
+    Top = 8
+  end
+  object FDQQuery: TFDQuery
+    Connection = ConexaoBD
+    SQL.Strings = (
+      'Select * from Solicitacoes')
+    Left = 144
+    Top = 56
+  end
+  object FDGUIxWaitCursor1: TFDGUIxWaitCursor
+    Provider = 'Forms'
+    Left = 144
+    Top = 8
+  end
+  object FDPhysFBDriverLink1: TFDPhysFBDriverLink
+    Left = 248
+    Top = 8
+  end
+  object FDQQuery1: TFDQuery
+    Connection = ConexaoBD
+    SQL.Strings = (
+      'Select * from Menu'
+      'Order by Item')
+    Left = 248
+    Top = 56
+  end
+  object FDQQuery2: TFDQuery
+    Connection = ConexaoBD
+    SQL.Strings = (
+      'Select * from Menu'
+      'Order by Item')
+    Left = 352
+    Top = 56
+  end
+  object FDQQuery3: TFDQuery
+    Connection = ConexaoBD
+    SQL.Strings = (
+      'Select * from Menu'
+      'Order by Item')
+    Left = 464
+    Top = 56
+  end
+  object FDQConfiguracoes: TFDQuery
+    Connection = ConexaoBD
+    SQL.Strings = (
+      'Select * from Licenca')
+    Left = 48
+    Top = 296
+    object FDQConfiguracoesIDLICENCA: TIntegerField
+      FieldName = 'IDLICENCA'
+      Origin = 'IDLICENCA'
+      ProviderFlags = [pfInUpdate, pfInWhere, pfInKey]
+      Required = True
+    end
+    object FDQConfiguracoesNOMELICENCA: TWideStringField
+      FieldName = 'NOMELICENCA'
+      Origin = 'NOMELICENCA'
+      Size = 50
+    end
+    object FDQConfiguracoesCNPJ: TWideStringField
+      FieldName = 'CNPJ'
+      Origin = 'CNPJ'
+      Size = 18
+    end
+    object FDQConfiguracoesCEP: TWideStringField
+      FieldName = 'CEP'
+      Origin = 'CEP'
+      Size = 9
+    end
+    object FDQConfiguracoesENDERECO: TWideStringField
+      FieldName = 'ENDERECO'
+      Origin = 'ENDERECO'
+      Size = 50
+    end
+    object FDQConfiguracoesNUMERO: TWideStringField
+      FieldName = 'NUMERO'
+      Origin = 'NUMERO'
+      Size = 10
+    end
+    object FDQConfiguracoesBAIRRO: TWideStringField
+      FieldName = 'BAIRRO'
+      Origin = 'BAIRRO'
+      Size = 30
+    end
+    object FDQConfiguracoesCIDADE: TWideStringField
+      FieldName = 'CIDADE'
+      Origin = 'CIDADE'
+      Size = 30
+    end
+    object FDQConfiguracoesESTADO: TWideStringField
+      FieldName = 'ESTADO'
+      Origin = 'ESTADO'
+      Size = 2
+    end
+    object FDQConfiguracoesTELEFONES: TWideStringField
+      FieldName = 'TELEFONES'
+      Origin = 'TELEFONES'
+      Size = 30
+    end
+    object FDQConfiguracoesEMAILORIGEM: TWideStringField
+      FieldName = 'EMAILORIGEM'
+      Origin = 'EMAILORIGEM'
+      Size = 100
+    end
+    object FDQConfiguracoesNOMEORIGEM: TWideStringField
+      FieldName = 'NOMEORIGEM'
+      Origin = 'NOMEORIGEM'
+      Size = 100
+    end
+    object FDQConfiguracoesSMTP: TWideStringField
+      FieldName = 'SMTP'
+      Origin = 'SMTP'
+      Size = 100
+    end
+    object FDQConfiguracoesPORTA: TWideStringField
+      FieldName = 'PORTA'
+      Origin = 'PORTA'
+      Size = 5
+    end
+    object FDQConfiguracoesUSUARIO: TWideStringField
+      FieldName = 'USUARIO'
+      Origin = 'USUARIO'
+      Size = 50
+    end
+    object FDQConfiguracoesSENHA: TWideStringField
+      FieldName = 'SENHA'
+      Origin = 'SENHA'
+      Size = 50
+    end
+    object FDQConfiguracoesTLS: TWideStringField
+      FieldName = 'TLS'
+      Origin = 'TLS'
+      Size = 3
+    end
+    object FDQConfiguracoesSSL: TWideStringField
+      FieldName = 'SSL'
+      Origin = 'SSL'
+      Size = 3
+    end
+  end
+end
